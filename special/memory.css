@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Micro+5+Charted&family=Protest+Strike&family=Satisfy&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Jaro:opsz@6..72&family=Micro+5+Charted&family=Protest+Strike&family=Satisfy&family=Zeyada&display=swap');
+
+body {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 96%);
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-family: Arial, sans-serif;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+
+.memories{
+    padding-top: 10px;
+    height: 100vh;
+    background-image: url(img/love);
+    background-size: cover;
+    height: 100vh;
+    animation: easeIn linear; /* Smooth transition for opacity */
+    animation-timeline:view();
+  }
+
+  .memories h1{
+    font-family: "Satisfy", cursive;
+    text-align: center;
+    font-size: 29px;
+  }
+
+  .memo1{
+    display: flex;
+    padding: 10px 100px 10px 140px;
+  }
+
+  .card{
+    border: 1px solid #e9e5e5;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    max-width: 200px;
+    height: 190px;
+    display: inline-block;
+  }
+  
+  .card .card-image1{
+    width: 80%;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 5px;
+  }
+
+  .card-image1:hover{
+    transition: 0.5s;
+    width:85% ;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .card .card-image2{
+    width: 50%;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 5px;
+  }
+
+  .card-image2:hover{
+    transition: 0.5s;
+    width:55% ;
+    height: auto;
+    cursor: pointer;
+  }
+  .card .card-image3{
+    width: 50%;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 5px;
+  }
+
+  .card-image3:hover{
+    transition: 0.5s;
+    width:55% ;
+    height: auto;
+    cursor: pointer;
+  }
+  .card .card-image4{
+    width: 90%;
+    height: auto;
+    border-radius: 10%;
+    margin-bottom: 5px;
+  }
+
+  .card-image4:hover{
+    transition: 0.5s;
+    width:95% ;
+    height: auto;
+    cursor: pointer;
+  }
+  .card .card-title{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: hsl(0, 3%, 7%);
+  }
+  
+  .card .card-text{
+    font-family: Arial, sans-serif;
+    color: hsl(0, 2%, 19%);
+    font-size: 13px;
+  }
+  .text{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    word-spacing: 0.2cm;
+    margin: 60px;
+  }
+
+  @keyframes easeIn {
+    0%{
+        opacity: 0.4;
+        scale: 0.6;
+    }
+   50%{
+    opacity: 1;
+    scale:1;
+   }
+   100%{
+    opacity: 1;
+    scale: 1;
+   }
+}
+
+.memorie2{
+    padding-top: 100px;
+    height: 90vh;
+    background-image: url(img/love);
+    background-size: cover;
+    animation: easeIn linear; /* Smooth transition for opacity */
+    animation-timeline:view();
+  }
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 10px 10px 10px;
+}
+
+.pic{
+    border: 1px solid #e9e5e5;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 20px;
+    max-width: 200px;
+    height: 120px;
+    display: inline-block;
+}
+
+.pic-img{
+    width: 100%;
+    border-radius: 10px;
+}
